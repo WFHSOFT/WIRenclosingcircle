@@ -7,8 +7,8 @@
     function wetzls (points) {
 
         // clone and then shuffle the points
-        const clonedPoints = points.slice();
-        shuffle(clonedPoints);
+        //const clonedPoints = points.slice();
+        clonedPoints = shuffle( points.slice());
         return mec(clonedPoints, points.length, [], 0)
     }
 
